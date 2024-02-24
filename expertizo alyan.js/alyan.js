@@ -101,13 +101,12 @@
 // ------------------------------------------------------------------------------------------
 // chapter4 Q1
 
-
 // var head = "<h1>Rules of naming JS variables</h1>"
 // var num = "numbers"
 // var dollar = "$"
 // var dash = "_"
 // document.write(head)
-// document.write("variable names can only contain , " + num + "," + dollar + " and " + dash + " . " + "For Example : " + dollar + "my" + dash + "1stVariable <br/>" ) 
+// document.write("variable names can only contain , " + num + "," + dollar + " and " + dash + " . " + "For Example : " + dollar + "my" + dash + "1stVariable <br/>" )
 // document.write("variable must begin with a letter , " + dollar + " or " + dash + " . " + "For Example : " + dollar + "name, " + dash + "name or name <br/>")
 // document.write("variables are case sensitive <br/>")
 // document.write("variable names should not be JS keywords")
@@ -162,9 +161,9 @@
 // chapter 5 Q5
 
 // var ask = +prompt('table');
-// for (var i = 1; i < 10; i++) {
-//   console.log(ask, 'x', i, '=', i * ask);
-// }
+//    for (var i = 1; i < 10; i++) {;
+//     console.log(ask, 'x', i, '=', i * ask);
+// };
 
 // var table = 4;
 // console.log(table, 'x 1 +', table * 1);
@@ -219,3 +218,147 @@
 // } else {
 //   console.log("good evening");
 // }
+
+// (15
+
+// var num2 = +prompt("second number")
+// function calculator(num1, num2, operator) {
+//     if (operator === "+") {
+//         document.write(num1 + num2)
+//     }
+//     else if (operator === "-") {
+//         document.write(num1 - num2)
+//     }
+//     else if (operator === "/") {
+//         document.write(num1 / num2)
+//     }
+//     else if (operator === "*") {
+//         document.write(num1 * num2)
+//     }
+//     else if (operator === "%") {
+//         document.write(num1 % num2)
+//     }
+//     else {
+//         document.write("syntex error")
+//     }
+// }
+// // calculator(num1, num2, operator))
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+
+// function
+// (1)
+
+// function sum() {
+//   var naam = 'alyan';
+//   console.log(naam);
+// }
+// sum();
+
+// (2)
+
+// function sum() {
+//   var naam = 'alyan';
+//   var lastnaam = ' tariq';
+//   var fullnaam = naam + lastnaam;
+//   console.log(fullnaam);
+// }
+// sum();
+
+// (3)
+
+// function time(){
+// var currantdate = Date()
+// console.log(currantdate);
+// }
+// time()
+
+// (4)
+
+// function plus() {
+//   var num1 = 4;
+//   var num2 = 5;
+//   var num3 = num1 + num2;
+//   console.log(num3);
+// }
+// plus();
+
+// var num1 = +prompt('first number ');
+// var operator = prompt('operator \n + \n - \n /  \n * \n % ');
+// var num2 = +prompt('second number');
+// function calculator(num1, num2, operator) {
+//   if (operator === '+') {
+//     document.write(num1 + num2);
+//   } else if (operator === '-') {
+//     document.write(num1 - num2);
+//   } else if (operator === '/') {
+//     document.write(num1 / num2);
+//   } else if (operator === '*') {
+//     document.write(num1 * num2);
+//   } else if (operator === '%') {
+//     document.write(num1 % num2);
+//   } else {
+//     document.write('syntex error');
+//   }
+// }
+// calculator(num1, num2, operator);
+
+// (5)
+// var ask = +prompt('enter a number ');
+// function suquare() {
+//   var num = ask * ask;
+//   console.log(num);
+// }
+// suquare();
+
+// (6)
+
+// function num() {
+//   var ask1 = +prompt('enter a 1st number');
+//   var ask2 = +prompt('enter a 2nd num ');
+//   for (var i = ask1; i <= ask2; i++) {
+//     console.log(i);
+//   }
+// }
+// num();
+
+// (7)
+
+// function lanth() {
+//   var naam = 'alyan';
+//   var naam1 = naam.length;
+//   console.log(naam1);
+// }
+// lanth();
+
+// (8)
+
+// let ask = prompt('enter');
+// let joint = [];
+// function firstWord(words) {
+//   arr = words.split(' ');
+//   for (var i = 0; i < arr.length; i++) {
+//     array = arr[i].toUpperCase()[0] + arr[i].slice(1);
+//     joint.push(array);
+//   }
+//   console.log(joint.join(' '));
+// }
+// firstWord(ask);
+
+// (9)
+
+// function birthday() {
+//   var ask = +prompt(' enter your birthyear ');
+//   var currentyear = 2024;
+//   var birthday = currentyear - ask;
+//   var birthday1 = 1 + birthday;
+//   document.write('They are ', birthday, ' or ', birthday1, ' year old ');
+// }
+// birthday();
+
+
+
+
+
+
+
